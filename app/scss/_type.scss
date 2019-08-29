@@ -20,11 +20,7 @@ $font-stack: 'Avenir', 'Avenir Next', 'Arial', sans-serif;
     text-transform: uppercase;
     font-size: 14px;
     // bottom margin should be 30px if there is no legend
-    margin-bottom: 20px;
-    @include sm-md-xl {
-        // set this only if there is a chart title + legend
-        margin-bottom: -23px;
-    }
+    margin-bottom: 30px;
 }
 
 .chart-note {
@@ -32,7 +28,7 @@ $font-stack: 'Avenir', 'Avenir Next', 'Arial', sans-serif;
     font-size: 14px;
     line-height: 18px;
     margin-bottom: 10px;
-    width: 70%;
+    width: 90%;
     @include sm-md-xl {
         width: 80%;
     }
@@ -62,11 +58,11 @@ $font-stack: 'Avenir', 'Avenir Next', 'Arial', sans-serif;
 
 .chart-source {
     &:before {
-        content: "Source: ";
+        content: "Sources: ";
     }
     float: left;
     @include sm-md-xl {
-        float: none;
+        width: 500px;
         } 
 }
 
