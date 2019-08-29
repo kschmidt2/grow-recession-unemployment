@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function () {
             shapes: [{
                 type: 'path',
                 points: [{
-                    x: 0,
+                    x: 300,
                     y: 5.74,
                     xAxis: 0,
                     yAxis: 0
@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }],
             labelOptions: {
                 formatter: function () {
-                    return "Historical <br/>average"
+                    return "Overall <br/>average"
                 }
             }
         }],
